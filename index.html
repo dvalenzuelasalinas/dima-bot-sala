@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        .mydiv {
+            width: 200px;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h2 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+        }
+
+        .footer {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+        }
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mydiv">
+        <img src="./assets/images/Logo-Dimacofi-2023-05.png" height="100%" width="100%" />
+    </div>
+    <h2 >Bot de asistencia de salas interactivas</h2>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script>
+      window.botpressWebChat.init({
+          "composerPlaceholder": "Chat with Dimacofi Bot Salas Interactivas",
+          "botConversationDescription": "",
+          "botId": "54fc49de-9215-48bc-b995-9e9ad754a229",
+          "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+          "messagingUrl": "https://messaging.botpress.cloud",
+          "clientId": "54fc49de-9215-48bc-b995-9e9ad754a229",
+          "webhookId": "779ce5cd-0336-4c2e-8f82-f6ed2bbb5e98",
+          "lazySocket": true,
+          "themeName": "prism",
+          "botName": "Dimacofi Bot Salas Interactivas",
+          "avatarUrl": "./assets/images/bot-aulas-20x20.png",
+          "phoneNumber": "600 600 1001",
+          "website": "https://www.dimacofi.cl/",
+          "frontendVersion": "v1",
+          "theme": "prism",
+          "themeColor": "#2563eb",
+          "allowedOrigins": []
+      });
+      window.botpressWebChat.sendEvent({ type: 'show' });
+    </script>
+    <footer>
+        <p class="footer">© 2024 Dimacofi</p>
+    </footer>
+</body>
+</html>
